@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gmudp</servlet-name>
+    <servlet-class>Ser.gmudp</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ygzeng</servlet-name>
+    <servlet-class>Ser.ygzeng</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gminsert</servlet-name>
+    <servlet-class>Ser.gminsert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gmdel</servlet-name>
+    <servlet-class>Ser.gmdel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>filter</servlet-name>
+    <servlet-class>Ser.filter</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>display</servlet-name>
+    <servlet-class>Ser.display</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>yhtijiao</servlet-name>
+    <servlet-class>Ser.yhtijiao</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>search</servlet-name>
+    <servlet-class>Ser.search</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>yhdisplay</servlet-name>
+    <servlet-class>Ser.yhdisplay</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>yhinsert</servlet-name>
+    <servlet-class>Ser.yhinsert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gouwudis</servlet-name>
+    <servlet-class>Ser.gouwudis</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gouwuupdata</servlet-name>
+    <servlet-class>Ser.gouwuupdata</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gouwudel</servlet-name>
+    <servlet-class>Ser.gouwudel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gmdingdan</servlet-name>
+    <servlet-class>Ser.gmdingdan</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>dingdandel</servlet-name>
+    <servlet-class>Ser.dingdandel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>yhdetail</servlet-name>
+    <servlet-class>Ser.yhdetail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Gmchangestatus</servlet-name>
+    <servlet-class>Ser.Gmchangestatus</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MySer</servlet-name>
+    <servlet-class>Ser.MySer</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>gmudp</servlet-name>
+    <url-pattern>/gmudp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ygzeng</servlet-name>
+    <url-pattern>/ygzeng</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gminsert</servlet-name>
+    <url-pattern>/gminsert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gmdel</servlet-name>
+    <url-pattern>/gmdel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>filter</servlet-name>
+    <url-pattern>/filter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>display</servlet-name>
+    <url-pattern>/display</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>yhtijiao</servlet-name>
+    <url-pattern>/yhtijiao</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>search</servlet-name>
+    <url-pattern>/search</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>yhdisplay</servlet-name>
+    <url-pattern>/yhdisplay</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>yhinsert</servlet-name>
+    <url-pattern>/yhinsert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gouwudis</servlet-name>
+    <url-pattern>/gouwudis</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gouwuupdata</servlet-name>
+    <url-pattern>/gouwuupdata</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gouwudel</servlet-name>
+    <url-pattern>/gouwudel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gmdingdan</servlet-name>
+    <url-pattern>/gmdingdan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>dingdandel</servlet-name>
+    <url-pattern>/dingdandel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>yhdetail</servlet-name>
+    <url-pattern>/yhdetail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Gmchangestatus</servlet-name>
+    <url-pattern>/Gmchangestatus</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MySer</servlet-name>
+    <url-pattern>/MySer</url-pattern>
+  </servlet-mapping>
+        <filter>
+  <filter-name>filter</filter-name>
+  <filter-class>Ser.filter</filter-class>
+  </filter>
+  <filter-mapping>
+  <filter-name>filter</filter-name>
+  <url-pattern>/jsp/*</url-pattern>
+  </filter-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
